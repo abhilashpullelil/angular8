@@ -1,6 +1,71 @@
-
-
-
-<h3 *ngFor="let s of skills" [class.selected]="s === skill"> <a (click)="onSelect(s)"> {{s.name}} </a> </h3>
-
-<app-skill-detail [skill]="skill"></app-skill-detail>
+<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+  <div class="w-100">
+    <h2 class="mb-5">Skills</h2>
+    <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+    <ul class="fa-ul mb-0">
+      <li>
+        <i class="fa-li fa fa-check"></i>
+        Asp.Net MVC
+      </li>
+      <li>
+        <i class="fa-li fa fa-check"></i>
+        .Net Web API
+      </li>
+      <li>
+        <i class="fa-li fa fa-check"></i>
+        .Net Core 2
+      </li>
+      <li>
+        <i class="fa-li fa fa-check"></i>
+        AngularJS
+      </li>
+      <li>
+        <i class="fa-li fa fa-check"></i>
+        Angular 8
+      </li>
+      <li>
+        <i class="fa-li fa fa-check"></i>
+        React Native
+      </li>
+      <li>
+        <i class="fa-li fa fa-check"></i>
+        Javascript
+      </li>
+      <li>
+        <i class="fa-li fa fa-check"></i>
+        MS SQL
+      </li>
+      <li>
+        <i class="fa-li fa fa-check"></i>
+        Visual Studio
+      </li>
+      <li>
+        <i class="fa-li fa fa-check"></i>
+        Git
+      </li>
+      <li>
+        <i class="fa-li fa fa-check"></i>
+        TFS
+      </li>
+    </ul>
+    <div class="subheading mb-3">Workflow</div>
+    <ul class="fa-ul mb-0">
+      <li>
+        <i class="fa-li fa fa-check"></i>
+        Mobile-First, Responsive Design
+      </li>
+      <li>
+        <i class="fa-li fa fa-check"></i>
+        Cross Browser Testing &amp; Debugging
+      </li>
+      <li>
+        <i class="fa-li fa fa-check"></i>
+        Cross Functional Teams
+      </li>
+      <li>
+        <i class="fa-li fa fa-check"></i>
+        Agile Development &amp; Scrum
+      </li>
+    </ul>
+  </div>
+</section>
