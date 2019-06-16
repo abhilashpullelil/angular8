@@ -1,0 +1,9 @@
+<div *ngIf="skill" class="box">
+  <h3>{{skill.name | uppercase}}</h3>
+
+  <div>
+    <label> Id : {{skill.id}} </label>
+    <label> Name : </label>
+    <input [(ngModel)]="skill.name" placeholder="name of skill" />
+  </div>
+</div>
